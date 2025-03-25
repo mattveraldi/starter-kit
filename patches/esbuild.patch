@@ -1,0 +1,12 @@
+diff --git a/build.js b/build.js
+index 55a7a4f..fb9e52d 100755
+--- a/build.js
++++ b/build.js
+@@ -95,6 +95,7 @@ const context = await esbuild.context({
+         copy({
+             assets: [
+                 { from: ['./src/manifest.json'], to: ['./manifest.json'] },
++                { from: ['./src/configuration.json'], to: ['./configuration.json'] },
+                 { from: ['./src/index.html'], to: ['./index.html'] },
+             ]
+         }),

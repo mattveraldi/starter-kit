@@ -1,0 +1,7 @@
+diff --git a/src/configuration.json b/src/configuration.json
+new file mode 100644
+index 0000000..0967ef4
+--- /dev/null
++++ b/src/configuration.json
+@@ -0,0 +1 @@
++{}
